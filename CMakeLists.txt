@@ -23,7 +23,8 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-cmake_minimum_required( VERSION 3.1.0...3.20 )
+# Upper bound relaxed from 3.20 to 3.30 for Android NDK/CMake 3.22 compatibility
+cmake_minimum_required( VERSION 3.1.0...3.30 )
 set( CMAKE_LEGACY_CYGWIN_WIN32 0 )
 project( openssl )
 
